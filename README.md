@@ -1,1 +1,5 @@
-PatchMatch based inpainting algorithm modified from https://github.com/vacancy/PyPatchMatch
+mkdir release && cd release
+
+cmake -DCMAKE_BUILD_TYPE=Release ..
+
+make
